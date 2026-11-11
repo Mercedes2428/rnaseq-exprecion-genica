@@ -69,35 +69,33 @@ Se revisarán limitaciones relacionadas con la calidad de los datos, la variabil
 
 **Estructura de la carpeta en GitHub**
 
-rnaseq-expresion-genica/
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── data/
-│   └── ejemplo/
-│       ├── conteos.tsv
-│       └── metadatos.tsv
-│
-├── scripts/
-│   ├── instalar_dependencias.R
-│   ├── analisis_rnaseq.R
-│   └── validar_entradas.py
-│
-├── resultados/
-│
-├── docs/
-│   ├── metodologia.md
-│   ├── datos_reales.md
-│   └── interpretacion.md
-│
-├── tests/
-│   └── test_validar_entradas.py
-│
-└── .github/
-    └── workflows/
-        └── validacion.yml
+Carpeta principal: rnaseq-expresion-genica
+
+1. README.md
+2. LICENSE
+3. .gitignore
+4. Carpeta data
+     - conteos.tsv
+     - metadatos.tsv
+5. Carpeta scripts
+   - instalar_dependencias.R
+   - analisis_rnaseq.R
+   - validar_entradas.py
+6. Carpeta resultados
+   - Tablas de expresión génica.
+   - Resultados del análisis diferencial.
+   - Gráficos de volcán.
+   - Mapas de calor.
+   - Gráficos PCA.
+7. Carpeta docs
+   - metodologia.md
+   - datos_reales.md
+   - interpretacion.md
+8. Carpeta tests
+   - test_validar_entradas.py
+9. Carpeta .github
+   - Subcarpeta workflows
+     - validacion.yml
 
 **Descripción de las carpetas y archivos en GitHub** 
 
