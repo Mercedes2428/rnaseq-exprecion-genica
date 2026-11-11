@@ -1,2 +1,2 @@
-# rnaseq-exprecion-genica
-Este es un repositorio para el analisis de exprecion genica a partir de datos de RNA-Seq
+# Título del proyecto: Análisis de Expresión Génica de Datos de Secuenciación de ARN
+- Objetivo del proyecto: analizar datos de RNA-Seq para identificar y visualizar diferencias de expresión génica entre dos condiciones experimentales mediante un flujo de trabajo reproducible.
