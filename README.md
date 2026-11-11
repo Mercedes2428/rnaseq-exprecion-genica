@@ -111,18 +111,6 @@ Carpeta principal: rnaseq-expresion-genica
   
 **Nota:** Esta estructura organiza el proyecto según las etapas del análisis bioinformático, desde la preparación de los datos hasta la interpretación y documentación de los resultados. Para utilizarla, será necesario adaptar las rutas de los scripts y archivos existentes a las nuevas subcarpetas.
 
-**Descripción de las carpetas y archivos en GitHub** 
-
-- README.md	Presentación, propósito, objetivos, metodología e instrucciones del proyecto.
-- data/	Matriz de conteos génicos y metadatos de las muestras biológicas.
-- scripts/	Códigos de R y Python para el análisis y la validación de datos.
-- resultados/	Tablas estadísticas, genes diferencialmente expresados y gráficos generados.
-- docs/	Documentación científica, metodología e interpretación de resultados.
-- tests/	Pruebas para verificar el funcionamiento del código.
-- github/workflows/	Configuración de pruebas automatizadas en GitHub.
-- LICENSE	Condiciones de uso y distribución del proyecto.
-- .gitignore Archivos que Git no debe incorporar al repositorio.
-
 **Enlaces de descargas y herramientas necesarias** 
 
 - **GitHub:** https://github.com/
