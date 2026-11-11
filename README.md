@@ -71,31 +71,45 @@ Se revisarán limitaciones relacionadas con la calidad de los datos, la variabil
 
 Carpeta principal: rnaseq-expresion-genica
 
-1. README.md
-2. LICENSE
-3. .gitignore
-4. Carpeta data
-     - conteos.tsv
-     - metadatos.tsv
-5. Carpeta scripts
-   - instalar_dependencias.R
-   - analisis_rnaseq.R
-   - validar_entradas.py
-6. Carpeta resultados
-   - Tablas de expresión génica.
-   - Resultados del análisis diferencial.
-   - Gráficos de volcán.
-   - Mapas de calor.
-   - Gráficos PCA.
-7. Carpeta docs
-   - metodologia.md
-   - datos_reales.md
-   - interpretacion.md
-8. Carpeta tests
-   - test_validar_entradas.py
-9. Carpeta .github
-   - Subcarpeta workflows
-     - validacion.yml
+1. Archivo README.md
+- Presentación del proyecto.
+- Propósito y objetivos.
+- Metodología del análisis.
+- Instrucciones de uso.
+  
+2. Carpeta data/
+- Subcarpeta conteos/: matriz de conteos génicos de RNA-Seq.
+- Subcarpeta metadatos/: información de las muestras biológicas y condiciones experimentales.
+  
+3. Carpeta scripts/
+- Subcarpeta procesamiento/: códigos para la preparación y validación de los datos.
+- Subcarpeta analisis/: códigos de R y DESeq2 para el análisis de expresión génica diferencial.
+- Subcarpeta visualizacion/: códigos para generar gráficos y representaciones estadísticas.
+  
+4. Carpeta resultados/
+- Subcarpeta tablas/: matrices normalizadas y resultados estadísticos.
+- Subcarpeta genes_diferenciales/: identificación de genes sobreexpresados y subexpresados.
+- Subcarpeta graficos/: gráficos de volcán, mapas de calor y análisis PCA.
+  
+5. Carpeta docs/
+- Subcarpeta fundamentos_teoricos/: documentación científica y antecedentes del análisis RNA-Seq.
+- Subcarpeta metodologia/: procedimientos y criterios estadísticos empleados.
+- Subcarpeta interpretacion/: explicación de los resultados y conclusiones del análisis.
+  
+6. Carpeta tests/
+- Archivos de prueba para verificar la correcta ejecución de los códigos.
+- Pruebas de validación de los datos de entrada y resultados.
+  
+7. Carpeta .github/
+- Subcarpeta workflows/: archivos de configuración para ejecutar pruebas automatizadas mediante GitHub Actions.
+  
+8. Archivo LICENSE
+- Condiciones legales de uso, modificación y distribución del proyecto.
+  
+9. Archivo .gitignore
+- Identificación de archivos temporales, datos innecesarios y otros elementos que no deben incorporarse al repositorio.
+  
+**Nota:** Esta estructura organiza el proyecto según las etapas del análisis bioinformático, desde la preparación de los datos hasta la interpretación y documentación de los resultados. Para utilizarla, será necesario adaptar las rutas de los scripts y archivos existentes a las nuevas subcarpetas.
 
 **Descripción de las carpetas y archivos en GitHub** 
 
