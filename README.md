@@ -67,6 +67,18 @@ Se incluirán en el repositorio los resultados del análisis, las tablas estadí
 
 Se revisarán limitaciones relacionadas con la calidad de los datos, la variabilidad experimental y los métodos estadísticos usados. Como las muestras son simuladas, los resultados se usarán con fines educativos y metodológicos, sin sacar conclusiones biológicas sobre organismos o enfermedades reales.
 
+**Descripción de las carpetas y archivos en GitHub** 
+
+- README.md	Presentación, propósito, objetivos, metodología e instrucciones del proyecto.
+- data/	Matriz de conteos génicos y metadatos de las muestras biológicas.
+- scripts/	Códigos de R y Python para el análisis y la validación de datos.
+- resultados/	Tablas estadísticas, genes diferencialmente expresados y gráficos generados.
+- docs/	Documentación científica, metodología e interpretación de resultados.
+- tests/	Pruebas para verificar el funcionamiento del código.
+- github/workflows/	Configuración de pruebas automatizadas en GitHub.
+- LICENSE	Condiciones de uso y distribución del proyecto.
+- .gitignore Archivos que Git no debe incorporar al repositorio.
+
 **Enlaces de descargas y herramientas necesarias** 
 
 - **GitHub:** https://github.com/
