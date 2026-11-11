@@ -26,3 +26,17 @@ El propósito de este proyecto es examinar un conjunto de muestras biológicas c
 6. Analizar las tablas y representaciones gráficas para reconocer diferencias en la expresión de los genes y su posible relación con las condiciones biológicas estudiadas.
 
 7. Registrar los procedimientos, resultados y conclusiones en el repositorio de GitHub, facilitando la reproducibilidad y el acceso a la información.
+
+**Enlaces de descargas y herramientas necesarias** 
+
+- **GitHub:** https://github.com/
+- **R:** https://cran.r-project.org/
+- **RStudio:** https://posit.co/downloads/
+- **Bioconductor:** https://bioconductor.org/install/
+- **DESeq2:** https://bioconductor.org/packages/DESeq2/
+- **Python:** https://www.python.org/downloads/
+- **Visual Studio Code:** https://code.visualstudio.com/download
+- **Git:** https://git-scm.com/downloads
+- **ggplot2:** https://ggplot2.tidyverse.org
+- **pheatmap:** https://cran.r-project.org/web/packages/pheatmap/index.html
+- **nf-core/rnaseq:** https://nf-co.re/rnaseq
