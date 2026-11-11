@@ -67,6 +67,38 @@ Se incluirán en el repositorio los resultados del análisis, las tablas estadí
 
 Se revisarán limitaciones relacionadas con la calidad de los datos, la variabilidad experimental y los métodos estadísticos usados. Como las muestras son simuladas, los resultados se usarán con fines educativos y metodológicos, sin sacar conclusiones biológicas sobre organismos o enfermedades reales.
 
+**Estructura de la carpeta en GitHub**
+
+rnaseq-expresion-genica/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── data/
+│   └── ejemplo/
+│       ├── conteos.tsv
+│       └── metadatos.tsv
+│
+├── scripts/
+│   ├── instalar_dependencias.R
+│   ├── analisis_rnaseq.R
+│   └── validar_entradas.py
+│
+├── resultados/
+│
+├── docs/
+│   ├── metodologia.md
+│   ├── datos_reales.md
+│   └── interpretacion.md
+│
+├── tests/
+│   └── test_validar_entradas.py
+│
+└── .github/
+    └── workflows/
+        └── validacion.yml
+
 **Descripción de las carpetas y archivos en GitHub** 
 
 - README.md	Presentación, propósito, objetivos, metodología e instrucciones del proyecto.
