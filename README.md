@@ -35,6 +35,38 @@ Degen y Medo en 2025 evaluaron la reproducibilidad de análisis de expresión g�
 
 7. Registrar los procedimientos, resultados y conclusiones en el repositorio de GitHub, facilitando la reproducibilidad y el acceso a la información.
 
+**Métodología de análisis**
+
+El proyecto se hará con un enfoque de bioinformática y estadística para analizar la expresión de genes a partir de datos de secuenciación de ARN. Se usará GitHub para organizar, documentar y compartir el proyecto. R y DESeq2 se usarán para procesar y analizar estadísticamente los datos.
+
+**1. Creación y organización del repositorio en GitHub**
+
+Se creará un repositorio en GitHub llamado rnaseq-expresión-génica. Este repositorio tendrá los datos, los códigos, los resultados y la documentación del proyecto. Se añadirá un archivo README.md con la descripción del estudio, los objetivos y las instrucciones de uso.
+
+**2. Preparación del conjunto de datos**
+
+Se usarán datos simulados de RNA-Seq que incluyen 500 genes y 12 muestras. Se dividirán en seis muestras de control y seis muestras de tratamiento. Los datos se organizarán en una matriz de conteos y en un archivo de metadatos que indique las condiciones experimentales.
+
+**3. Procesamiento y normalización de los datos**
+
+Se usará R y el paquete DESeq2 de Bioconductor para procesar y normalizar los datos. Este proceso controlará diferencias por profundidad de secuenciación y facilitará comparar las muestras.
+
+**4. Análisis de expresión génica diferencial**
+
+Se hará un análisis con DESeq2 para encontrar genes con diferencias significativas de expresión entre control y tratamiento. Se usarán criterios de padj menor a 0.05 y de cambio absoluto log2FC mayor a 1.
+
+**5. Visualización e interpretación de resultados**
+
+Los resultados se mostrarán con gráficos de volcán, mapas de calor y PCA. Estas herramientas ayudarán a ver los genes sobreexpresados y subexpresados, a identificar patrones y a explorar similitudes y diferencias entre las muestras.
+
+**6. Documentación y publicación de resultados en GitHub**
+
+Se incluirán en el repositorio los resultados del análisis, las tablas estadísticas, los gráficos y los códigos usados. También se actualizará el archivo README.md con la metodología, las instrucciones de ejecución y las conclusiones. Esto permitirá que otros usuarios reproduzcan el estudio y accedan a la información.
+
+**7. Evaluación de las limitaciones**
+
+Se revisarán limitaciones relacionadas con la calidad de los datos, la variabilidad experimental y los métodos estadísticos usados. Como las muestras son simuladas, los resultados se usarán con fines educativos y metodológicos, sin sacar conclusiones biológicas sobre organismos o enfermedades reales.
+
 **Enlaces de descargas y herramientas necesarias** 
 
 - **GitHub:** https://github.com/
