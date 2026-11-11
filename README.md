@@ -1,5 +1,5 @@
 # Proyecto de Análisis de Expresión Génica de Datos de Secuenciación de ARN
-El propósito de este proyecto es examinar un conjunto de muestras biológicas con el objetivo de analizar su expresión génica empleando el método denominado RNA-Seq (Secuenciación de ARN), mediante distintas técnicas y herramientas bioinformáticas adecuadas haciendo uso de métodos estadístico que nos permitirán detectar aquellos genes que están diferencialmente expresados en distintas condiciones experimentales. Además se examinarán gráficos y tablas de resultados para el análisis de expresión génica.
+El propósito de este proyecto es examinar un conjunto de muestras biológicas con el objetivo de analizar su expresión génica empleando el método denominado RNA-Seq (Secuenciación de ARN), mediante distintas técnicas y herramientas bioinformáticas adecuadas haciendo uso de métodos estadístico que nos permitirán detectar aquellos genes que están diferencialmente expresados en distintas condiciones experimentales. De igual forma, se examinarán gráficos y tablas de resultados para el análisis de expresión génica con el objetivo de detectar patrones de secuenciación y su relación con las condiciones biológicas de las muestras. 
 
 **Objetivo general:** 
 
