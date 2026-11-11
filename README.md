@@ -1,5 +1,6 @@
 # Proyecto de Análisis de Expresión Génica de Datos de Secuenciación de ARN
 **Objetivo general:** Analizar datos de RNA-Seq para identificar diferencias de expresión génica entre dos condiciones experimentales mediante un flujo de trabajo reproducible.
+
 **Objetivos específicos:**
 
 ## 1. Organizar y validar los datos de expresión procedentes de RNA-Seq.
