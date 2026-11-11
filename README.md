@@ -46,6 +46,8 @@ Degen y Medo en 2025 evaluaron la reproducibilidad de análisis de expresión g�
 - **Visual Studio Code:** https://code.visualstudio.com/download
 - **Git:** https://git-scm.com/downloads
 - **ggplot2:** https://ggplot2.tidyverse.org
+- **pheatmap:** https://cran.r-project.org/web/packages/pheatmap/index.html
+- **nf-core/rnaseq:** https://nf-co.re/rnaseq
 
 **Referencias Bibliográficas** 
 
@@ -54,5 +56,4 @@ Degen, P. M., & Medo, M. (2025). Replicability of bulk RNA-Seq differential expr
 Kreis, V., Toffano-Nioche, C., Denève-Larrazet, C., Marvaud, J.-C., Garneau, J. R., Dumont, F., van Dijk, E. L., Jaszczyszyn, Y., Boutserin, A., D'Angelo, F., Gautheret, D., Kansau, I., Janoir, C., & Soutourina, O. (2024). Dual RNA-seq study of the dynamics of coding and non-coding RNA expression during Clostridioides difficile infection in a mouse model. mSystems, 9(12), e00863-24. https://doi.org/10.1128/msystems.00863-24
 
 Liu, F., Peng, A., Zhu, X., & Wang, G. (2025). Differential expression and correlation analysis of whole transcriptome for type 2 diabetes mellitus. Frontiers in Endocrinology, 16, Article 1541261. https://doi.org/10.3389/fendo.2025.1541261
-- **pheatmap:** https://cran.r-project.org/web/packages/pheatmap/index.html
-- **nf-core/rnaseq:** https://nf-co.re/rnaseq
+
